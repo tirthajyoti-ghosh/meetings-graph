@@ -1,3 +1,6 @@
+// I am assuming the graph data is coming from an API.
+// So I am putting it in the API directory.
+
 const getGraphData = () => (
   [
     {
