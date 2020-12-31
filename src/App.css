@@ -1,5 +1,10 @@
 .App {
-  text-align: center;
+  display: flex;
+  justify-content: center;
+}
+
+.chart {
+  max-width: 720px;
 }
 
 .App-logo {
@@ -21,7 +26,7 @@
   align-items: center;
   justify-content: center;
   font-size: calc(10px + 2vmin);
-  color: white;
+  color: rgba(255, 183, 0, 0.239);
 }
 
 .App-link {
