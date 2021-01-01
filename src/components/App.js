@@ -1,23 +1,14 @@
 import React, { useState } from 'react';
 import { Line } from 'react-chartjs-2';
 import getGraphData from '../API/getGraphData';
+import parseGraphData from '../helpers/parseGraphData';
 
 const LineChart = () => {
-  const graphData = getGraphData();
-
   // Format input graph data to match react-chartjs dataset.
 
-  const labels = [];
-  const typeAData = [];
-  const typeBData = [];
-  const typeCData = [];
-
-  graphData.forEach(data => {
-    labels.push(data.weekStart);
-    typeAData.push(data.numberOfTypeA);
-    typeBData.push(data.numberOfTypeB);
-    typeCData.push(data.numberOfTypeC);
-  });
+  const {
+    labels, typeAData, typeBData, typeCData,
+  } = parseGraphData(getGraphData());
 
   // Prepare dataset for each type.
 
