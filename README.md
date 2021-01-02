@@ -37,9 +37,6 @@
     <br />
     <a href="https://github.com/tirthajyoti-ghosh/meetings-graph"><strong>Explore the docs »</strong></a>
     <br />
-    <br />
-    <a href="https://tg-animex.herokuapp.com/">View Demo</a>
-    ·
     <a href="https://github.com/tirthajyoti-ghosh/meetings-graph/issues">Report Bug</a>
     ·
     <a href="https://github.com/tirthajyoti-ghosh/meetings-graph/issues">Request Feature</a>
@@ -74,10 +71,6 @@ A chart that shows a line with weekly number of of three types of meetings.
 - npm
 - react-chartjs2
 - chartjs
-
-## Live demo
-
-Deployed to Heroku - [live demo](https://tg-animex.herokuapp.com/).
 
 <!-- GETTING STARTED -->
 ## Getting Started
