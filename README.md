@@ -1,70 +1,173 @@
-# Getting Started with Create React App
+<!--
+*** Thanks for checking out this README Template. If you have a suggestion that would
+*** make this better, please fork the repo and create a pull request or simply open
+*** an issue with the tag "enhancement".
+*** Thanks again! Now go create something AMAZING! :D
+-->
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-## Available Scripts
+<!-- PROJECT SHIELDS -->
+<!--
+*** I'm using markdown "reference style" links for readability.
+*** Reference links are enclosed in brackets [ ] instead of parentheses ( ).
+*** See the bottom of this document for the declaration of the reference variables
+*** for contributors-url, forks-url, etc. This is an optional, concise syntax you may use.
+*** https://www.markdownguide.org/basic-syntax/#reference-style-links
+-->
+[![Contributors][contributors-shield]][contributors-url]
+[![Forks][forks-shield]][forks-url]
+[![Stargazers][stars-shield]][stars-url]
+[![Issues][issues-shield]][issues-url]
+[![License: MIT][license-shield]][license-url]
+[![LinkedIn][linkedin-shield]][linkedin-url]
 
-In the project directory, you can run:
 
-### `yarn start`
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+<!-- PROJECT LOGO -->
+<br />
+<p align="center">
+  <a href="https://github.com/tirthajyoti-ghosh/meetings-graph">
+    <img src="https://www.flaticon.com/svg/static/icons/svg/3616/3616872.svg" alt="Logo" width="80" height="80">
+  </a>
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+  <h3 align="center">Meetings Graph</h3>
 
-### `yarn test`
+  <p align="center">
+    A chart that shows a line with weekly number of of three types of meetings.
+    <br />
+    <a href="https://github.com/tirthajyoti-ghosh/meetings-graph"><strong>Explore the docs »</strong></a>
+    <br />
+    <br />
+    <a href="https://tg-animex.herokuapp.com/">View Demo</a>
+    ·
+    <a href="https://github.com/tirthajyoti-ghosh/meetings-graph/issues">Report Bug</a>
+    ·
+    <a href="https://github.com/tirthajyoti-ghosh/meetings-graph/issues">Request Feature</a>
+  </p>
+</p>
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+<!-- TABLE OF CONTENTS -->
+## Table of Contents
 
-### `yarn build`
+* [About the Project](#about-the-project)
+  * [Built With](#built-with)
+* [Getting Started](#getting-started)
+  * [Prerequisites](#prerequisites)
+  * [Installation](#installation)
+* [Roadmap](#roadmap)
+* [Contributing](#contributing)
+* [License](#license)
+* [Contact](#contact)
+* [Acknowledgements](#acknowledgements)
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+<!-- ABOUT THE PROJECT -->
+## About The Project
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+A chart that shows a line with weekly number of of three types of meetings.
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+![image](https://user-images.githubusercontent.com/57726348/103452435-8eb72d80-4cf5-11eb-99eb-17699b9d1b95.png)
 
-### `yarn eject`
+### Built With
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+- React
+- ESLint
+- npm
+- react-chartjs2
+- chartjs
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+## Live demo
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+Deployed to Heroku - [live demo](https://tg-animex.herokuapp.com/).
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+<!-- GETTING STARTED -->
+## Getting Started
 
-## Learn More
+To get a local copy up and running follow these simple steps.
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+### Prerequisites
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+* npm
 
-### Code Splitting
+    ```sh
+    npm install npm@latest -g
+    ```
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+### Installation
 
-### Analyzing the Bundle Size
+1. Clone the repo
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+    ```sh
+    git clone https://github.com/tirthajyoti-ghosh/meetings-graph.git
+    ```
 
-### Making a Progressive Web App
+2. Change directory
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+    ```sh
+    cd meetings-graph
+    ```
 
-### Advanced Configuration
+3. Install NPM packages
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+    ```sh
+    npm install
+    ```
 
-### Deployment
+4. Start the local server
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+    ```sh
+    npm start
+    ```
 
-### `yarn build` fails to minify
+<!-- ROADMAP -->
+## Roadmap
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+Check the [issues](https://github.com/tirthajyoti-ghosh/meetings-graph/issues).
+
+<!-- CONTRIBUTING -->
+## Contributing
+
+Contributions are what make the open-source community such an amazing place to learn, inspire, and create. Any contributions you make are **greatly appreciated**.
+
+1. Fork the Project
+2. Create your Feature Branch (`git checkout -b feature/AmazingFeature`)
+3. Commit your Changes (`git commit -m 'Add some AmazingFeature'`)
+4. Push to the Branch (`git push origin feature/AmazingFeature`)
+5. Open a Pull Request
+
+<!-- LICENSE -->
+## License
+
+Distributed under the MIT License. See `LICENSE` for more information.
+
+<!-- CONTACT -->
+## Contact
+
+👤 **Tirthajyoti Ghosh**
+
+- Website: [ghosh.tech](https://ghosh.tech)
+- GitHub - [@tirthajyoti-ghosh](https://github.com/tirthajyoti-ghosh)
+- Twitter - [@terrific_ghosh](https://twitter.com/terrific_ghosh)
+- LinkedIn - [@tirthajyoti-ghosh](https://www.linkedin.com/in/tirthajyoti-ghosh/)
+
+<!-- ACKNOWLEDGEMENTS -->
+## Acknowledgements
+
+* react-chartjs2
+* README Icon made by <a href="https://www.flaticon.com/free-icon/line-chart_3616872?related_item_id=3616866&term=line%20graph" title="DinosoftLabs">DinosoftLabs</a> from <a href="https://www.flaticon.com/" title="Flaticon">www.flaticon.com</a>
+
+* [Img Shields](https://shields.io)
+
+<!-- MARKDOWN LINKS & IMAGES -->
+<!-- https://www.markdownguide.org/basic-syntax/#reference-style-links -->
+[contributors-shield]: https://img.shields.io/github/contributors/tirthajyoti-ghosh/meetings-graph.svg?style=flat-square
+[contributors-url]: https://github.com/tirthajyoti-ghosh/meetings-graph/graphs/contributors
+[forks-shield]: https://img.shields.io/github/forks/tirthajyoti-ghosh/meetings-graph.svg?style=flat-square
+[forks-url]: https://github.com/tirthajyoti-ghosh/meetings-graph/network/members
+[stars-shield]: https://img.shields.io/github/stars/tirthajyoti-ghosh/meetings-graph.svg?style=flat-square
+[stars-url]: https://github.com/tirthajyoti-ghosh/meetings-graph/stargazers
+[issues-shield]: https://img.shields.io/github/issues/tirthajyoti-ghosh/meetings-graph.svg?style=flat-square
+[issues-url]: https://github.com/tirthajyoti-ghosh/meetings-graph/issues
+[license-shield]: https://img.shields.io/badge/License-MIT-yellow.svg
+[license-url]: https://github.com/tirthajyoti-ghosh/meetings-graph/blob/development/LICENSE
+[linkedin-shield]: https://img.shields.io/badge/-LinkedIn-black.svg?style=flat-square&logo=linkedin&colorB=555
+[linkedin-url]: https://www.linkedin.com/in/tirthajyoti-ghosh/
